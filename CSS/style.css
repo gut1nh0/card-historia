@@ -23,13 +23,24 @@ body{
   
 }
 
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    flex-wrap: wrap
+}
+
+.aside{
+    margin-top: 70px
+    
+}
 .dados{
     color: white;
     font-weight: 600;
     font-size: 20px;
 }
 
-main{
+.main{
     display: flex;
     background-color: #3f3f46;
     justify-content: space-evenly;
